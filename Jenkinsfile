@@ -5,6 +5,7 @@ pipeline{
         maven 'mymaven'
     }
 	agent any
+	//trying the poll
       stages{
            stage('Checkout'){
 	    
